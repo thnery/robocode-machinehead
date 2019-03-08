@@ -11,7 +11,7 @@ public class MachineHead extends Robot {
 
 	public void run() {
 		// Set Machine Head War Paint
-		setColors(Color.blue, Color.yellow, Color.green);
+		setColors(Color.white, Color.red, Color.black);
 
 		// Set distance to move
 		distance = Math.max(getBattleFieldWidth(), getBattleFieldHeight());
